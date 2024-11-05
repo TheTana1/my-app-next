@@ -27,7 +27,7 @@ export default function Home() {
         className={`${styles.page} ${geistSans.variable} ${geistMono.variable}`}
       >git remote add origin https://github.com/TheTana1/my-app-next.git
         <main className={styles.main}>
-          Hello from Anton!!!
+          Hello from Anton!!!<br/>
           It is my first Next.js
           <Image
             className={styles.logo}
