@@ -25,7 +25,7 @@ export default function Home() {
       </Head>
       <div
         className={`${styles.page} ${geistSans.variable} ${geistMono.variable}`}
-      >git remote add origin https://github.com/TheTana1/my-app-next.git
+      >
         <main className={styles.main}>
           Hello from Anton!!!<br/>
           It is my first Next.js
@@ -47,18 +47,11 @@ export default function Home() {
           <div className={styles.ctas}>
             <a
               className={styles.primary}
-              href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+              href="https://github.com/TheTana1/my-app-next"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Image
-                className={styles.logo}
-                src="/vercel.svg"
-                alt="Vercel logomark"
-                width={20}
-                height={20}
-              />
-              Deploy now
+              My GitHub
             </a>
             <a
               href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
