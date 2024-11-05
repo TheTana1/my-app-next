@@ -27,7 +27,7 @@ export default function Home() {
         className={`${styles.page} ${geistSans.variable} ${geistMono.variable}`}
       >
         <main className={styles.main}>
-          Hello from Anton!!
+          Hello from Anton!!!
           <Image
             className={styles.logo}
             src="/next.svg"
